@@ -32,9 +32,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+
 /* Made changes to this code to feature the semantic change from div to nav*/
 .header nav ul li {
     display: inline-block;
