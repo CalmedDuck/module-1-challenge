@@ -47,16 +47,14 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Background image and posistioning */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    object-fit: cover; /* Needed to find an alternative to background size and posistion. Found this on W3SChools at https://www.w3schools.com/css/css3_object-fit.asp */
 }
-
+/* Floating formatting for images inside of main */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -66,13 +64,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Styling rules for main */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Styling rules for benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -80,7 +78,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
@@ -126,14 +124,15 @@ p {
     font-size: 36px;
 }
 
-
+/* Style rules for the footer of the website */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Styling rule for the h2 element of the footer */
 .footer h2 {
     font-size: 20px;
 }
+
