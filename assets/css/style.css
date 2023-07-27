@@ -93,13 +93,9 @@ p {
 }
 
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 /* Grouped two class selectors together since they shared the same styling rules */
-.benefit-brand h3, .benefit-cost h3 {
+.benefit-brand h3, .benefit-cost h3, .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
